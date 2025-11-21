@@ -1,16 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deutscher Bundestag – Überblick & Quiz</title>
+  <meta name="description" content="Kompakte Infos zum Deutschen Bundestag mit Navigation, Bildern, Quiz ohne JavaScript und Quellen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="start">
     <div class="container nav-wrap">
       <a href="#start" class="logo">Bundestag</a>
       <nav class="nav">
@@ -31,11 +32,13 @@
         <div class="hero-text">
           <h1>Der Deutsche Bundestag</h1>
           <p>Das Parlament der Bundesrepublik Deutschland – Ort der Debatte, Gesetzgebung und demokratischen Kontrolle.</p>
-          <a class="cta" href="#quiz">Zum Wissenstest</a>
+          <div>
+            <a class="cta" href="#quiz">Zum Wissenstest</a>
+          </div>
         </div>
         <div class="hero-media">
           <figure class="photo-card" aria-label="Reichstagsgebäude in Berlin">
-            <img src="https://images.unsplash.com/photo-1607182340001-df22a32c6ac6?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxSZWljaHN0YWdzZ2ViJUMzJUE0dWRlJTIwaW4lMjBCZXJsaW58ZW58MHwwfHx8MTc2MzU4MDE3NHww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Reichstagsgebäude in Berlin" />
+            <img src="https://images.unsplash.com/photo-1607182340001-df22a32c6ac6?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxSZWljaHN0YWdzZ2ViJUMzJUE0dWRlJTIwaW4lMjBCZXJsaW58ZW58MHwwfHx8MTc2Mzc1NzkxM3ww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Reichstagsgebäude in Berlin" loading="lazy" referrerpolicy="no-referrer" />
             <figcaption>Reichstagsgebäude, Sitz des Deutschen Bundestages</figcaption>
           </figure>
         </div>
@@ -59,6 +62,7 @@
     <!-- AUFGABEN -->
     <section id="aufgaben" class="section container">
       <h2>Aufgaben des Bundestages</h2>
+      <p class="muted">Gesetzgebung, Kontrolle der Regierung, Haushaltshoheit und wichtige Wahlfunktionen.</p>
       <div class="grid">
         <article class="card">
           <h3>Gesetzgebung</h3>
@@ -77,12 +81,13 @@
           <p>Der Bundestag wählt u. a. die Bundeskanzlerin bzw. den Bundeskanzler.</p>
         </article>
       </div>
+      <p style="margin-top:12px"><a class="cta" href="aufgaben.html">Mehr Infos zu den Aufgaben</a></p>
     </section>
 
     <!-- FRAKTIONEN -->
     <section id="fraktionen" class="section container">
       <h2>Fraktionen</h2>
-      <p>Abgeordnete schließen sich zu Fraktionen zusammen. In der 20. Wahlperiode vertreten: SPD, CDU/CSU, Bündnis 90/Die Grünen, FDP, AfD, Die Linke (Größe variiert durch Übertritte und Mandatsänderungen).</p>
+      <p>Abgeordnete schließen sich zu Fraktionen zusammen. Sie prägen Anträge, Ausschussarbeit und Debatten.</p>
       <div class="fraktionen">
         <span class="tag spd">SPD</span>
         <span class="tag union">CDU/CSU</span>
@@ -91,6 +96,7 @@
         <span class="tag afd">AfD</span>
         <span class="tag linke">Die Linke</span>
       </div>
+      <p style="margin-top:12px"><a class="cta" href="fraktionen.html">Mehr Infos zu Fraktionen</a></p>
     </section>
 
     <!-- PLENUM BILD -->
@@ -98,14 +104,15 @@
       <h2>Debatten im Plenum</h2>
       <div class="image-row">
         <figure class="photo-card small">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bundestag_plenum_2009.jpg/1024px-Bundestag_plenum_2009.jpg" alt="Blick ins Plenum" />
+          <img src="https://images.unsplash.com/photo-1554007460-791a7b8945d8?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxQbGVuYXJzYWFsJTIwZGVzJTIwQnVuZGVzdGFnZXN8ZW58MHwwfHx8MTc2Mzc1NzkxNHww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Blick ins Plenum" loading="lazy" referrerpolicy="no-referrer" />
           <figcaption>Plenarsaal während einer Sitzung</figcaption>
         </figure>
         <figure class="photo-card small">
-          <img src="https://images.unsplash.com/photo-1651217098833-8106880f373b?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxSZWljaHN0YWdza3VwcGVsfGVufDB8MHx8fDE3NjM1ODAxNzV8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Reichstagskuppel" />
+          <img src="https://images.unsplash.com/photo-1651217098833-8106880f373b?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxSZWljaHN0YWdza3VwcGVsfGVufDB8MHx8fDE3NjM3NTc5MTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Reichstagskuppel" loading="lazy" referrerpolicy="no-referrer" />
           <figcaption>Transparenz: Die begehbare Kuppel</figcaption>
         </figure>
       </div>
+      <p style="margin-top:12px"><a class="cta" href="plenum.html">Mehr Infos zum Plenum</a></p>
     </section>
 
     <!-- QUIZ ohne JavaScript (reines HTML/CSS) -->
